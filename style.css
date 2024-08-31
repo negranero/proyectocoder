@@ -206,3 +206,8 @@ text-align: center;
 
 /*YOGA*/
 
+/*JUSTIFICAR TEXTO DE CARD */
+.card-text{                      
+    text-align: justify;             /* justificar el texto de CARD*/
+    line-height: 2em;               /*INTERLINEADO DE TEXTO*/
+}
