@@ -30,7 +30,12 @@ a{
     min-height: 100vh;
 }
 
-
+/*INICIO RESPONSIVE*/
+@media screen and (max-widt:376px) {
+  body{
+    margin-top: 4rem;
+  }  
+}
 
 /*Color del NAV*/
 .navbar .container-fluid{
@@ -40,11 +45,6 @@ a{
 /*Efecto del texto del NAV al pasar el mouse*/
 .navbar-brand :hover{
     color: rgb(222, 202, 223);
-}
-
-.img_logo{
-    width: 70px;
-    height: 70px;
 }
 
 /*MAIN PORTADA*/
@@ -76,6 +76,7 @@ height:500px;
 
 
 /* EDITAR MAIN*/
+
 .nosotros{                      
     text-align: justify;             /* justificar el texto de nosotros*/
     line-height: 2em;               /*INTERLINEADO DE TEXTO*/
@@ -87,58 +88,124 @@ height:500px;
     align-items: center;
 }
 
-/*EDITAR FOOTER*/
-#PiedePagina{
-    max-width: 100%;
-    background-color:rgb(153, 123, 135);
-    max-width: 1440px;
-    margin: auto;
-    display: grid; /*POSICIONA A LOS ELEMENTOS EN COLUMNAS*/
-    grid-template-columns: repeat(3, 1fr); /*POSICIONA EN 2 COLUMNAS Y ocupa todo el ancho*/
-    grid-gap: 10px; /*cada columna tiene un margen de 50px*/
-    padding: 45px, 0px;
+
+h1{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: xx-large;
 }
 
-.Box_texto{
+h2{
+font-family: "Dancing Script", cursive;
+font-size:x-large;
+font-weight:bolder;
+text-align: center;
+color:black
+}
+
+p{
+margin-left: 25px;
+margin-right: 25px;
+text-justify: auto;
+}
+
+
+/*Boton FLOTANTE de WHATSAAP*/
+.whatsapp {
+    position:fixed;
+    width: 45px;
+    height:45px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:28px;
+    z-index:100;
+    text-align: center;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+    text-align: center;
+  }
+
+
+/*FOOTER*/  
+.pie-pagina{
+    width: 100%;
+    background-color: #ebcee1;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 30px 0px;
+    background-color: #ebcee1;
+}
+
+.pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 100%;
-    justify-content: center; /*centrar horizontalmente*/
-    align-items: center; /*centrar verticalmente*/
-    color: aliceblue;
-    font-size: 15px;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*Logo PIE DE PAGINA*/
+.pie-pagina .grupo-1 .box figure img{
+    height: 55px;
+    width: 55px;
+}
 
-.footer_redes a{
+.pie-pagina .grupo-1 .box h5{
+    color:#8a8686;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color:#8a8686;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
-    line-height: 45px; /*altura 45px*/
-    margin-top: 20px;
-    color: rgb(235, 223, 229); /*Color a la imagen*/
-    margin-right: 10px; /*margen a la derecha*/
+    line-height: 45px;
+    color: #8a8686;
+    margin-right: 10px;
+    background-color:#ebcee1;
+    margin-top: 0px;
+    transition: all 300ms ease;
+}
+
+.red-social{
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(204, 165, 202);
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
 }
 
 
-.footer_redes :hover{
-    color: rgb(80, 37, 70); /*Color cuando paso el cursor, sobre el elemento*/
-}
-
-.Box_logo{
-justify-content:center;
-margin-top: 6px;
-margin: 15px;
-}
-
-
-.Box_texto{
-width: 100%;
-height: 100%;
-text-align: center;  
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
-}
 
 
 /* CONTACTO*/
@@ -185,10 +252,8 @@ padding: 8px;
 border-color:rgb(233, 172, 214);
 }
 
-
 .center-content p{
 text-align: center;
-
 }
 
 .btn-form{
@@ -210,4 +275,18 @@ text-align: center;
 .card-text{                      
     text-align: justify;             /* justificar el texto de CARD*/
     line-height: 2em;               /*INTERLINEADO DE TEXTO*/
+}
+
+/*TIPOGRAFIA DE CARD*/
+.card-title{  
+text-align: center;
+font-family: "Dancing Script", system-ui;
+font-weight:bolder;
+font-size:x-large
+}
+
+
+/*REGISTROS AKÁSHICOS*/
+.card-img-top{
+    height: 250px;
 }

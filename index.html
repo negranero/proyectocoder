@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--META VIEWPORT PARA QUE SEA RESPONSIVE, 
-        PARA DISPOTIVO MOVIL-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!--META VIEWPORT PARA QUE SEA RESPONSIVE, PARA DISPOTIVO MOVIL-->
         
         <link rel="stylesheet" href="Icons/favicon.ico">
         <title>Inicio</title>
@@ -17,15 +17,22 @@
         <!--ENLACE A LA HOJA DE ESTILO stylesheet indica en donde esta la hoja de diseño-->
         <link rel="stylesheet" href="style.css">
         
-        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
         <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
        
+        <!--GOOGLE FONTS PARA H1-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
             <!--ENLACE DE LIBRERIA, fontawesome ICONOS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous">
    
+
     </head>
     <body id="body"><!--cuerpo lo que el usuario ve-->
+
 
         <header id="header"> <!--ESTRUCTURA 1 HEADER CABECERA-->
 
@@ -55,18 +62,21 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         
-                        <li class="nav-item">
-                        <a class="nav-link" href="Pages/registrosAkashicos.html">Registros Akashicos</a>
-                        </li>
-                        
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" 
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Armonización
+                        Terapias
                         </a>
+                    
                         <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                            <li><a class="dropdown-item" href="Pages/armonizacionEnergetica.html">Armonizacón en Mascotas</a></li>
-                            <li><a class="dropdown-item" href="Pages/limpieza.html">Armonización Personal</a></li>
+                            
+                            <li><a class="dropdown-item" href="Pages/registrosAkashicos.html">Registros Akáshicos</a></li>
+                            
+                            <li><a class="dropdown-item" href="Pages/limpieza.html">Armonización y Limpieza</a></li>
+
+                            <li><a class="dropdown-item" href="Pages/armonizacionEnergetica.html">Armonización de animales</a></li>
+                            
+                            
                             <li>
                             <hr class="dropdown-divider">
                             </li>
@@ -77,17 +87,17 @@
                             </li>
                             
 
-                          <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="Pages/Contacto.html">Contacto</a>
                             </li>
                         </li>
-                      </ul>
-                     
+                    </ul>
+                    
                     </div>
-                  </div>
                 </div>
-              </nav>
-
+                </div>
+            </nav>
+            
 </header>
         <main id="main"><!-- ESTRUCTURA 2 MAIN (CONTENIDO / CAJAS, parrafo del sitio)-->
 
@@ -132,8 +142,9 @@
     <!--SECCION NOSOTROS-->
 
              <!--agregar TEXT CENTER PARA CENTRAR H2, agregar my-5 MARGIN vertical, sobre el eje y, en 5 es lo maximo-->
-            <section class="nosotros my-5">
-                <h2 class="text-center my-5">Quiénes somos</h2>
+            
+             <section class="nosotros my-5">
+                <h1 class="text-center my-5">¡Bienvenidos!</h1>
                 
                 <div class="container"> <!--DIVIDO EN dos container de 6 columnas cada uno-->
                 
@@ -153,36 +164,90 @@
                 </div>
             </section>
 
-<div>
-    <section>
 
-    </section>
-</div>
+            <section class="Terapias my-5">
+                
+                <h1 class="text-center my-5">Terapias</h1>
+
+                <div class="card-group">
+                    
+                    <div class="card">
+                    <img src="Images/Libro1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="card-title">Lectura de Registros Akashicos</h2>
+                    <p class="card-text">Los Registros Akáshicos son un archivo energético universal que contiene la información sobre el viaje de cada alma a lo largo del tiempo.</p>
+                        
+                        <a href="Pages/registrosAkashicos.html" class="btn btn-outline-secondary">Leer más...</a>
+                    </div>
+                    </div>
+                    
+                    <div class="card">
+                      <img src="Images/mantra.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Limpieza y armonización energética</h5>
+                        <p class="card-text">La armonización energética es una práctica ancestral que busca eliminar las energias negativas acumuladas en una persona o espacio...</p>
+                       
+                        <a href="Pages/limpieza.html" class="btn btn-outline-secondary" >Leer más...</a>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <img src="Images/kira3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Armonización energética para Mascotas</h5>
+                        <p class="card-text">Tratamiento no invasivo, ayuda aliviar malestares. Ayuda a equilibrar  su energía y reducir su estrés. Colabora en acelerar su proceso...</p>
+                        
+                        <a href="Pages/armonizacionEnergetica.html" class="btn btn-outline-secondary">Leer más...</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+            </section>
 
         </main>
 
-        <!--ESTRUCTURA 3 PIE DE PAGINA-->
+
+    <!--BOTON FLOTANTE WHATSAAP-->
+        <a href="https://wa.me/5492984203912?text=%20Hola,%20me%20gustaría%20conocer%20más%20sobre..." 
+        class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+	
+
+
+<!--PIE DE PÁGINA-->
+<footer class="pie-pagina">
+    
+    <div class="grupo-1">
         
-        <footer id="PiedePagina"><!--Pie de Página-->
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img class="img_logo" src="Images/Logo 1.jpg" alt="Logo ">
+                </a>
+            </figure>
+        </div>
 
-            <section class="Box_logo">
-            <img class="img_logo" src="Images/Logo 1.jpg" alt="icono principal">
-            </section>
-            
-            <section class="Box_texto">
-            <h2>¡Seguinos!</h2>
-            </section>
-            
-            
-            
-            <section class="footer_redes"><!--ENLACES DE REDES SOCIALES Y DE LOS ICONOS EN fontawesome-->
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <div class="box">
+            <h5>Luz de Lotus</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+        </div>
+
+        <div class="box">
+            <h5>Seguinos en:</h5>
+            <div class="red-social">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/5492984203912"><i class="fa-brands fa-whatsapp"></i></a>
-                </section>
+    
+            </div>
+        </div>
+    </div>
 
+</footer>
 
-        </footer>
 
         <!-- PONER SCRIPT DE BTS, DESPUES DEL FOOTER Y ANTES DEL CIERRE DE BODY -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
