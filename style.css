@@ -89,21 +89,30 @@ height:500px;
 }
 
 
-h1{
+.nosotros h1{
     font-family: "Dancing Script", cursive;
     text-align: center;
     font-size: xx-large;
+    font-weight:bolder;
 }
 
-h2{
-font-family: "Dancing Script", cursive;
-font-size:x-large;
-font-weight:bolder;
-text-align: center;
-color:black
+
+.terapias h2{
+    font-family:"Dancing Script", cursive;
+    font-size:xx-large;
+    font-weight:bolder;
+    text-align: center;
+   
 }
 
-p{
+.titulo-terapias h1{
+    font-family:"Dancing Script", cursive;
+    font-size:x-large;
+    font-weight:bolder;
+    text-align: center;  
+}
+
+.col-6 p{
 margin-left: 25px;
 margin-right: 25px;
 text-justify: auto;
@@ -210,6 +219,14 @@ text-justify: auto;
 
 /* CONTACTO*/
 
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+
+
+
 .formulario{
 margin: 0 auto;
 width: 400px;
@@ -269,24 +286,105 @@ text-align: center;
     background-color: rgba(155, 59, 115, 0.63);
 }
 
+.form-control{
+    color: #25d366;
+}
+
+
 /*YOGA*/
 
 /*JUSTIFICAR TEXTO DE CARD */
-.card-text{                      
+.yoga-parrafo p{                 
     text-align: justify;             /* justificar el texto de CARD*/
     line-height: 2em;               /*INTERLINEADO DE TEXTO*/
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-/*TIPOGRAFIA DE CARD*/
-.card-title{  
-text-align: center;
-font-family: "Dancing Script", system-ui;
-font-weight:bolder;
-font-size:x-large
-}
+.yoga-titulo h1{
+    text-align: center;
+    font-family:"Dancing Script", system-ui;
+    font-weight:bolder;
+    font-size:xx-large;
+    }
+    
+
+    .yoga-subtitulo h2{
+        text-align: center;
+        font-family:"Dancing Script", system-ui;
+        font-weight:bolder;
+        font-size:x-large   
+    }
+
+
+    .yoga-parrafot p{
+        text-align: justify;             /* justificar el texto de CARD*/
+        line-height: 2em;             /*INTERLINEADO DE TEXTO*/
+        padding-left: 0;
+        padding-right: 0;
+    }   
+    
 
 
 /*REGISTROS AKÁSHICOS*/
-.card-img-top{
-    height: 250px;
+.registro-imagen{
+    height: 350px;
+    padding-top: 50px;
 }
+
+.registro-titulo h1{
+text-align: center;
+font-family: "Dancing Script", system-ui;
+font-weight:bolder;
+font-size:xx-large;
+}
+
+.registro-subtitulo h2{
+    text-align: center;
+    font-family: "Dancing Script", system-ui;
+    font-weight:bolder;
+    font-size:x-large;
+    }
+
+
+.registro-parrafo p{
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*ARMONIZACIÓN ANIMAL*/
+
+
+.card-img{
+    padding-top: 50px;
+    height: 440px;
+}
+
+    .armonizacion-titulo h1{
+        text-align: center;
+        font-family:"Dancing Script", system-ui;
+        font-size:xx-large;
+        }
+
+    .armonizacion-subtitulo h2{
+        text-align: center;
+        font-family:"Dancing Script", system-ui;
+        font-size:x-large;
+        }  
+
+        .armonizacion-parrafo p{
+            text-align: justify;
+            padding-left: 50px;
+            padding-right: 50px
+        }
+
+        .font-weight-bold{
+            font-weight: bold;
+        }
+        
+        .armonizacion-lista{
+            padding: 50px;
+            padding-top: 10px;
+        }
