@@ -384,7 +384,8 @@ font-size:xx-large;
             font-weight: bold;
         }
         
-        .armonizacion-lista{
-            padding: 50px;
-            padding-top: 10px;
-        }
+    .armonizacion-lista{
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+    }
