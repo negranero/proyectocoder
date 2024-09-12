@@ -77,10 +77,26 @@ height:500px;
 
 /* EDITAR MAIN*/
 
-.nosotros{                      
-    text-align: justify;             /* justificar el texto de nosotros*/
-    line-height: 2em;               /*INTERLINEADO DE TEXTO*/
+.titulo-index h1{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bolder;
 }
+
+.subtitulo-index h2{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+
+
+.parrafo-index{
+    text-align: justify;             
+    line-height: 2em; /*INTERLINEADO DE TEXTO*/
+}
+
 
 .img-fluid{
     width: 800;
@@ -89,22 +105,6 @@ height:500px;
 }
 
 
-.nosotros h1{
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    font-size: xx-large;
-    font-weight:bolder;
-}
-
-
-.terapias h2{
-    font-family:"Dancing Script", cursive;
-    font-size:xx-large;
-    font-weight:bolder;
-    text-align: center;
-   
-}
-
 .titulo-terapias h1{
     font-family:"Dancing Script", cursive;
     font-size:x-large;
@@ -112,11 +112,6 @@ height:500px;
     text-align: center;  
 }
 
-.col-6 p{
-margin-left: 25px;
-margin-right: 25px;
-text-justify: auto;
-}
 
 
 /*Boton FLOTANTE de WHATSAAP*/
@@ -380,12 +375,14 @@ font-size:xx-large;
             padding-right: 50px
         }
 
-        .font-weight-bold{
-            font-weight: bold;
-        }
-        
     .armonizacion-lista{
         padding-left: 50px;
         padding-right: 50px;
         text-align: justify;
+    }
+
+    .armonizacion-titulolista{
+        font-family:"Dancing Script", system-ui;
+        font-size:larger;
+        font-weight: bolder;   
     }
