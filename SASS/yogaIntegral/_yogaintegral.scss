@@ -1,0 +1,56 @@
+ /*YOGA*/
+    
+    /*JUSTIFICAR TEXTO DE CARD */
+    .yoga-parrafo p{                 
+        text-align: justify;             /* justificar el texto de CARD*/
+        line-height: 2em;               /*INTERLINEADO DE TEXTO*/
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .yoga-titulo h1{
+        text-align: center;
+        font-family:"Dancing Script", system-ui;
+        font-weight:bolder;
+        font-size:xx-large;
+        }
+        
+    
+        .yoga-subtitulo h2{
+            text-align: center;
+            font-family:"Dancing Script", system-ui;
+            font-weight:bolder;
+            font-size:x-large   
+        }
+    
+    
+        .yoga-parrafot p{
+            text-align: justify;             /* justificar el texto de CARD*/
+            line-height: 2em;             /*INTERLINEADO DE TEXTO*/
+            padding-left: 0;
+            padding-right: 0;
+        }   
+   
+
+        
+    
+    /*Boton FLOTANTE de WHATSAAP*/
+    .whatsapp {
+        position:fixed;
+        width: 45px;
+        height:45px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:28px;
+        z-index:100;
+        text-align: center;
+      }
+      
+      .whatsapp-icon {
+        margin-top:13px;
+        text-align: center;
+      }

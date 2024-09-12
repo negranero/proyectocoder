@@ -1,0 +1,98 @@
+
+    
+    /* CONTACTO*/
+    
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+    
+    
+    
+    
+    .formulario{
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(238, 240, 239);
+    padding: 15px;
+    border-radius: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: grey;
+    }
+    
+    input textarea{
+    outline: none;
+    border: 0;
+    width: 280px;
+    }
+    
+    .field{
+    border: solid 1px rgb(233, 172, 214);
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    margin: 15px;
+    }
+    
+    .field:focus{
+    border-color:rgb(233, 172, 214);
+    }
+    
+    .desplegable_f{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: dimgray;
+    width: 280px;
+    border-color:rgb(233, 172, 214);
+    padding: 8px;
+    }
+    
+    .desplegable_f:focus{
+    border-color:rgb(233, 172, 214);
+    }
+    
+    .center-content p{
+    text-align: center;
+    }
+    
+    .btn-form{
+        color: white;
+        font-size:large;
+        background-color: rgb(153, 123, 135);
+        width: 270px;
+        height: 40px;
+        border-color: rgb(206, 166, 188); 
+    }
+    
+    .center-content :hover{
+        background-color: rgba(155, 59, 115, 0.63);
+    }
+    
+    .form-control{
+        color: #25d366;
+    }
+    
+
+    
+    
+    /*Boton FLOTANTE de WHATSAAP*/
+    .whatsapp {
+        position:fixed;
+        width: 45px;
+        height:45px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:28px;
+        z-index:100;
+        text-align: center;
+      }
+      
+      .whatsapp-icon {
+        margin-top:13px;
+        text-align: center;
+      }

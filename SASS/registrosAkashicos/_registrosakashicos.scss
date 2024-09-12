@@ -1,0 +1,51 @@
+
+    /*REGISTROS AKÁSHICOS*/
+    .registro-imagen{
+        height: 350px;
+        padding-top: 50px;
+    }
+    
+    .registro-titulo h1{
+    text-align: center;
+    font-family: "Dancing Script", system-ui;
+    font-weight:bolder;
+    font-size:xx-large;
+    }
+    
+    .registro-subtitulo h2{
+        text-align: center;
+        font-family: "Dancing Script", system-ui;
+        font-weight:bolder;
+        font-size:x-large;
+        }
+    
+    
+    .registro-parrafo p{
+        text-align: justify;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+
+    
+    
+    /*Boton FLOTANTE de WHATSAAP*/
+    .whatsapp {
+        position:fixed;
+        width: 45px;
+        height:45px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:28px;
+        z-index:100;
+        text-align: center;
+      }
+      
+      .whatsapp-icon {
+        margin-top:13px;
+        text-align: center;
+      }

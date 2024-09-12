@@ -1,0 +1,64 @@
+    /*MAIN PORTADA*/
+    h3{
+        margin-top: 50% !important;
+    }
+    
+    
+    .img_inicio_portada{
+        width: 250px;
+        height: 210px;
+        margin-bottom: 30px;
+    }
+    
+    .texto_portada{
+        text-align: justify;
+    }
+    
+    
+    .carousel-inner{
+        width: 100%;
+        max-height: 350px;
+    }
+    
+    img{
+    width:300px; 
+    height:500px;
+    }
+    
+    
+    /* EDITAR MAIN*/
+    
+    .titulo-index h1{
+        font-family: "Dancing Script", cursive;
+        text-align: center;
+        font-size: xx-large;
+        font-weight:bolder;
+    }
+    
+    .subtitulo-index h2{
+        font-family: "Dancing Script", cursive;
+        text-align: center;
+        font-size: xx-large;
+        font-weight:bolder;
+    }
+    
+    
+    .parrafo-index{
+        text-align: justify;             
+        line-height: 2em; /*INTERLINEADO DE TEXTO*/
+    }
+    
+    
+    .img-fluid{
+        width: 800;
+        height: 300;
+        align-items: center;
+    }
+    
+    
+    .titulo-terapias h1{
+        font-family:"Dancing Script", cursive;
+        font-size:x-large;
+        font-weight:bolder;
+        text-align: center;  
+    }
