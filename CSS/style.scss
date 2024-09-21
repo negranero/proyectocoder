@@ -37,6 +37,7 @@ a {
     margin-top: 4rem;
   }
 }
+/*Color del NAV*/
 .navbar .container-fluid {
   background-color: rgb(222, 202, 223);
 }
@@ -44,41 +45,6 @@ a {
 /*Efecto del texto del NAV al pasar el mouse*/
 .navbar-brand :hover {
   color: rgb(222, 202, 223);
-}
-
-/*ANIMACION ANIMATED*/
-@-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-@keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-.slideInRight {
-  -webkit-animation-name: slideInRight;
-  animation-name: slideInRight;
-}
-
-.animated {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
 }
 
 /*MAIN PORTADA*/
@@ -108,17 +74,17 @@ img {
 
 /* EDITAR MAIN*/
 .titulo-index h1 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
 .subtitulo-index h2 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
 .parrafo-index {
@@ -142,7 +108,7 @@ img {
 /*FOOTER*/
 .pie-pagina {
   width: 100%;
-  background-color: rgb(222, 202, 223);
+  background-color: #ebcee1;
 }
 
 .pie-pagina .grupo-1 {
@@ -153,7 +119,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 30px 0px;
-  background-color: rgb(222, 202, 223);
+  background-color: #ebcee1;
 }
 
 .pie-pagina .grupo-1 .box figure {
@@ -190,7 +156,7 @@ img {
   line-height: 45px;
   color: #8a8686;
   margin-right: 10px;
-  background-color: rgb(222, 202, 223);
+  background-color: #ebcee1;
   margin-top: 0px;
   transition: all 300ms ease;
 }
@@ -200,7 +166,7 @@ img {
 }
 
 .pie-pagina .grupo-1 .red-social a:hover {
-  color: rgb(165, 99, 145);
+  color: rgb(204, 165, 202);
 }
 
 @media screen and (max-width: 800px) {
@@ -212,35 +178,21 @@ img {
   }
 }
 /*ARMONIZACIÓN ANIMAL*/
-/*ANIMACION nav*/
-.animated {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
 .card-img {
   padding-top: 50px;
   height: 440px;
 }
 
 .armonizacion-titulo h1 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  padding-top: 10px;
   text-align: center;
+  font-family: "Dancing Script", system-ui;
+  font-size: xx-large;
 }
 
 .armonizacion-subtitulo h2 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
   text-align: center;
-  font-size: large;
+  font-family: "Dancing Script", system-ui;
+  font-size: x-large;
 }
 
 .armonizacion-parrafo p {
@@ -283,14 +235,6 @@ img {
 }
 
 /* CONTACTO*/
-/*ANIMACION nav*/
-.animated {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
 .bigicon {
   font-size: 35px;
   color: #36A0FF;
@@ -380,14 +324,6 @@ input textarea {
   text-align: center;
 }
 
-/*ANIMACION nav*/
-.animated {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
 /*Boton FLOTANTE de WHATSAAP*/
 .whatsapp {
   position: fixed;
@@ -410,26 +346,16 @@ input textarea {
 }
 
 /*REGISTROS AKÁSHICOS*/
-/*ANIMACION nav*/
-.animated {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
 .registro-imagen {
   height: 350px;
   padding-top: 50px;
 }
 
 .registro-titulo h1 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  padding-top: 10px;
   text-align: center;
+  font-family: "Dancing Script", system-ui;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 .registro-subtitulo h2 {
@@ -467,14 +393,6 @@ input textarea {
 }
 
 /*YOGA*/
-/*ANIMACION nav*/
-.animated {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
 /*JUSTIFICAR TEXTO DE CARD */
 .yoga-parrafo p {
   text-align: justify; /* justificar el texto de CARD*/
@@ -484,12 +402,10 @@ input textarea {
 }
 
 .yoga-titulo h1 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  padding-top: 10px;
   text-align: center;
+  font-family: "Dancing Script", system-ui;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 .yoga-subtitulo h2 {
@@ -527,4 +443,4 @@ input textarea {
   text-align: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */

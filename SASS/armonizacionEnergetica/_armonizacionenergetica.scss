@@ -1,5 +1,12 @@
 /*ARMONIZACIÓN ANIMAL*/
-    
+
+     /*ANIMACION nav*/ 
+     .animated {
+        -webkit-animation-duration: 6s;
+        animation-duration: 6s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
     
 .card-img{
     padding-top: 50px;
@@ -7,15 +14,21 @@
 }
 
     .armonizacion-titulo h1{
+        font-family: "Source Serif 4", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        padding-top: 10px;
         text-align: center;
-        font-family:"Dancing Script", system-ui;
-        font-size:xx-large;
         }
 
     .armonizacion-subtitulo h2{
+        font-family: "Source Serif 4", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
         text-align: center;
-        font-family:"Dancing Script", system-ui;
-        font-size:x-large;
+        font-size:large;
         }  
 
         .armonizacion-parrafo p{

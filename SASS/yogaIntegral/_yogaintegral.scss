@@ -1,5 +1,13 @@
  /*YOGA*/
-    
+   /*ANIMACION nav*/ 
+   .animated {
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+   
+  }
+ 
     /*JUSTIFICAR TEXTO DE CARD */
     .yoga-parrafo p{                 
         text-align: justify;             /* justificar el texto de CARD*/
@@ -9,10 +17,12 @@
     }
     
     .yoga-titulo h1{
+      font-family: "Source Serif 4", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        padding-top: 10px;
         text-align: center;
-        font-family:"Dancing Script", system-ui;
-        font-weight:bolder;
-        font-size:xx-large;
         }
         
     
